@@ -1,3 +1,16 @@
+### How To Run
+
+- Make sure postgres server is running locally.
+
+- `bundle install`
+
+- `rake db:create`
+
+- `rake db:migrate`
+
+- `rails server`
+
+
 ProductSearch is a simple Rails application that enables a user to search Semantics3's product database.
 
 ---
