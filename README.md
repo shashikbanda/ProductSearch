@@ -10,6 +10,15 @@
 
 - `rails server`
 
+- Database table located on route `/results`
+
+
+### Extra Features
+
+- Implemented a simple interface that allows an “admin” to review, add, or remove items from the cache.
+
+- To access, go to route `/results`. Ex: localhost:3000/results
+
 
 ProductSearch is a simple Rails application that enables a user to search Semantics3's product database.
 
