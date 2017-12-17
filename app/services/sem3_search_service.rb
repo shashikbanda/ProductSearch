@@ -16,8 +16,10 @@ class Sem3SearchService
   private
 
   def setup
+    puts ENV["SEM3_API_KEY"]
     @sem3 = Semantics3::Products.new(Rails.application.secrets.sem3_api_key,
                                      Rails.application.secrets.sem3_api_secret)
+    
   end
 
   def construct_query

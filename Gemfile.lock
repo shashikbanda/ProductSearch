@@ -54,7 +54,7 @@ GEM
       activerecord (>= 3.2, < 6.0)
       rake (>= 10.4, < 13.0)
     arel (8.0.0)
-    autoprefixer-rails (7.1.6)
+    autoprefixer-rails (7.2.3)
       execjs
     bindex (0.5.0)
     bootstrap-sass (3.3.7)
@@ -118,7 +118,7 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
-    oauth (0.5.3)
+    oauth (0.5.4)
     pg (0.21.0)
     pry (0.11.3)
       coderay (~> 1.1.0)
@@ -162,12 +162,12 @@ GEM
     redis (4.0.1)
     ruby_dep (1.5.0)
     rubyzip (1.2.1)
-    sass (3.5.3)
+    sass (3.5.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    selenium-webdriver (3.7.0)
+    selenium-webdriver (3.8.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
     semantics3 (0.14)
@@ -203,7 +203,7 @@ GEM
     turbolinks-source (5.0.3)
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
-    uglifier (3.2.0)
+    uglifier (4.0.2)
       execjs (>= 0.3.0, < 3)
     web-console (3.5.1)
       actionview (>= 5.0)
@@ -244,4 +244,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.16.0.pre.2
+   1.16.0
