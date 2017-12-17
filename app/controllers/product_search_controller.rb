@@ -6,13 +6,9 @@ class ProductSearchController < ApplicationController
 
 
     @items.each do |item|
-    	puts item['name']
-    	puts item['price']
-    	puts item['sitedetails'].first['name']
-
 		# Results.new(:name =>item['name'], :retailer =>item['sitedetails'].first['name'], :price=>item['price'])
     	@result = Result.new({"name"=>item['name'], "retailer"=>item['sitedetails'].first['name'], "price"=>item['price']})
-    	puts @result
+    	# puts @result
     	@result.save
     end
  
