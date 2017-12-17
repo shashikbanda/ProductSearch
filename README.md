@@ -1,6 +1,8 @@
 ### How To Run
 
-- Make sure postgres server is running locally.
+- Make sure postgres server is running locally. 
+
+- If postgres is not installed --- `brew install postgresql`
 
 - `bundle install`
 
